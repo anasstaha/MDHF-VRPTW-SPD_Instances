@@ -1,0 +1,3062 @@
+{
+  "metadata": {
+    "instanceName": "taha04-n192",
+    "randomSeed": 42,
+    "customerCount": 192,
+    "depotCount": 4,
+    "statistics": {
+      "nb_DeliveryWithLowReturn": 146,
+      "nb_DeliveryWithSignificantReturn": 33,
+      "nb_ReturnOnly": 13,
+      "totalDeliveryQuantity": 2297,
+      "totalPickupQuantity": 510,
+      "pickupToDeliveryRatio": 22.2
+    }
+  },
+  "vehicleTypes": [
+    {
+      "id": "Type1",
+      "name": "Class1",
+      "description": "Cargo bike/micro-EV",
+      "capacityFactor": 0.25,
+      "fixedCost": 60,
+      "variableCost": 0.45
+    },
+    {
+      "id": "Type2",
+      "name": "Class2",
+      "description": "Small van (1 t)",
+      "capacityFactor": 0.5,
+      "fixedCost": 120,
+      "variableCost": 0.6
+    },
+    {
+      "id": "Type3",
+      "name": "Class3",
+      "description": "Large van (2 t)",
+      "capacityFactor": 0.8,
+      "fixedCost": 180,
+      "variableCost": 0.75
+    },
+    {
+      "id": "Type4",
+      "name": "Class4",
+      "description": "7.5-t truck",
+      "capacityFactor": 1.2,
+      "fixedCost": 240,
+      "variableCost": 0.9
+    }
+  ],
+  "depots": [
+    {
+      "id": 193,
+      "x": -0.14,
+      "y": 7.266,
+      "maxDuration": 440,
+      "vehicles": [
+        {
+          "typeId": "Type1",
+          "capacity": 46,
+          "count": "unlimited",
+          "maxDuration": 440
+        },
+        {
+          "typeId": "Type2",
+          "capacity": 92,
+          "count": "unlimited",
+          "maxDuration": 440
+        },
+        {
+          "typeId": "Type3",
+          "capacity": 148,
+          "count": "unlimited",
+          "maxDuration": 440
+        },
+        {
+          "typeId": "Type4",
+          "capacity": 222,
+          "count": "unlimited",
+          "maxDuration": 440
+        }
+      ]
+    },
+    {
+      "id": 194,
+      "x": -23.138,
+      "y": 48.45,
+      "maxDuration": 440,
+      "vehicles": [
+        {
+          "typeId": "Type1",
+          "capacity": 46,
+          "count": "unlimited",
+          "maxDuration": 440
+        },
+        {
+          "typeId": "Type2",
+          "capacity": 92,
+          "count": "unlimited",
+          "maxDuration": 440
+        },
+        {
+          "typeId": "Type3",
+          "capacity": 148,
+          "count": "unlimited",
+          "maxDuration": 440
+        },
+        {
+          "typeId": "Type4",
+          "capacity": 222,
+          "count": "unlimited",
+          "maxDuration": 440
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "x": -26.102,
+      "y": 16.809,
+      "maxDuration": 440,
+      "vehicles": [
+        {
+          "typeId": "Type1",
+          "capacity": 46,
+          "count": "unlimited",
+          "maxDuration": 440
+        },
+        {
+          "typeId": "Type2",
+          "capacity": 92,
+          "count": "unlimited",
+          "maxDuration": 440
+        },
+        {
+          "typeId": "Type3",
+          "capacity": 148,
+          "count": "unlimited",
+          "maxDuration": 440
+        },
+        {
+          "typeId": "Type4",
+          "capacity": 222,
+          "count": "unlimited",
+          "maxDuration": 440
+        }
+      ]
+    },
+    {
+      "id": 196,
+      "x": 0.244,
+      "y": -35.892,
+      "maxDuration": 440,
+      "vehicles": [
+        {
+          "typeId": "Type1",
+          "capacity": 46,
+          "count": "unlimited",
+          "maxDuration": 440
+        },
+        {
+          "typeId": "Type2",
+          "capacity": 92,
+          "count": "unlimited",
+          "maxDuration": 440
+        },
+        {
+          "typeId": "Type3",
+          "capacity": 148,
+          "count": "unlimited",
+          "maxDuration": 440
+        },
+        {
+          "typeId": "Type4",
+          "capacity": 222,
+          "count": "unlimited",
+          "maxDuration": 440
+        }
+      ]
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "x": -44.629,
+      "y": -55.64,
+      "TotalServiceTime": 6.5,
+      "deliveryServiceTime": 4.7,
+      "pickupServiceTime": 1.8,
+      "deliveryQuantity": 11,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 206,
+        "end": 382
+      }
+    },
+    {
+      "id": 2,
+      "x": 36.096,
+      "y": 64.935,
+      "TotalServiceTime": 17.0,
+      "deliveryServiceTime": 12.8,
+      "pickupServiceTime": 4.2,
+      "deliveryQuantity": 11,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 126,
+        "end": 266
+      }
+    },
+    {
+      "id": 3,
+      "x": -25.47,
+      "y": 44.58,
+      "TotalServiceTime": 9.5,
+      "deliveryServiceTime": 5.1,
+      "pickupServiceTime": 4.4,
+      "deliveryQuantity": 23,
+      "pickupQuantity": 5,
+      "category": "A",
+      "timeWindow": {
+        "start": 189,
+        "end": 280
+      }
+    },
+    {
+      "id": 4,
+      "x": -33.954,
+      "y": -73.059,
+      "TotalServiceTime": 21.0,
+      "deliveryServiceTime": 0,
+      "pickupServiceTime": 21.0,
+      "deliveryQuantity": 0,
+      "pickupQuantity": 2,
+      "category": "C",
+      "timeWindow": {
+        "start": 472,
+        "end": 650
+      }
+    },
+    {
+      "id": 5,
+      "x": 45.654,
+      "y": 35.73,
+      "TotalServiceTime": 9.0,
+      "deliveryServiceTime": 5.0,
+      "pickupServiceTime": 4.0,
+      "deliveryQuantity": 16,
+      "pickupQuantity": 4,
+      "category": "B",
+      "timeWindow": {
+        "start": 474,
+        "end": 579
+      }
+    },
+    {
+      "id": 6,
+      "x": 14.954,
+      "y": -36.719,
+      "TotalServiceTime": 8.5,
+      "deliveryServiceTime": 5.0,
+      "pickupServiceTime": 3.5,
+      "deliveryQuantity": 2,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 214,
+        "end": 373
+      }
+    },
+    {
+      "id": 7,
+      "x": -1.477,
+      "y": 47.205,
+      "TotalServiceTime": 4.5,
+      "deliveryServiceTime": 2.0,
+      "pickupServiceTime": 2.5,
+      "deliveryQuantity": 1,
+      "pickupQuantity": 1,
+      "category": "B",
+      "timeWindow": {
+        "start": 301,
+        "end": 437
+      }
+    },
+    {
+      "id": 8,
+      "x": 2.155,
+      "y": -40.912,
+      "TotalServiceTime": 24.5,
+      "deliveryServiceTime": 19.8,
+      "pickupServiceTime": 4.8,
+      "deliveryQuantity": 25,
+      "pickupQuantity": 3,
+      "category": "A",
+      "timeWindow": {
+        "start": 223,
+        "end": 350
+      }
+    },
+    {
+      "id": 9,
+      "x": 22.992,
+      "y": 1.398,
+      "TotalServiceTime": 5.0,
+      "deliveryServiceTime": 3.0,
+      "pickupServiceTime": 2.0,
+      "deliveryQuantity": 24,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 220,
+        "end": 331
+      }
+    },
+    {
+      "id": 10,
+      "x": -28.857,
+      "y": 5.957,
+      "TotalServiceTime": 6.0,
+      "deliveryServiceTime": 3.6,
+      "pickupServiceTime": 2.4,
+      "deliveryQuantity": 14,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 472,
+        "end": 563
+      }
+    },
+    {
+      "id": 11,
+      "x": -48.12,
+      "y": 94.116,
+      "TotalServiceTime": 16.0,
+      "deliveryServiceTime": 0,
+      "pickupServiceTime": 16.0,
+      "deliveryQuantity": 0,
+      "pickupQuantity": 2,
+      "category": "C",
+      "timeWindow": {
+        "start": 225,
+        "end": 327
+      }
+    },
+    {
+      "id": 12,
+      "x": 7.239,
+      "y": 17.322,
+      "TotalServiceTime": 13.0,
+      "deliveryServiceTime": 10.1,
+      "pickupServiceTime": 2.9,
+      "deliveryQuantity": 20,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 172,
+        "end": 303
+      }
+    },
+    {
+      "id": 13,
+      "x": 4.614,
+      "y": 27.051,
+      "TotalServiceTime": 13.0,
+      "deliveryServiceTime": 9.3,
+      "pickupServiceTime": 3.7,
+      "deliveryQuantity": 10,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 151,
+        "end": 288
+      }
+    },
+    {
+      "id": 14,
+      "x": -13.971,
+      "y": 28.198,
+      "TotalServiceTime": 21.0,
+      "deliveryServiceTime": 11.4,
+      "pickupServiceTime": 9.6,
+      "deliveryQuantity": 11,
+      "pickupQuantity": 6,
+      "category": "B",
+      "timeWindow": {
+        "start": 433,
+        "end": 562
+      }
+    },
+    {
+      "id": 15,
+      "x": 12.946,
+      "y": -11.688,
+      "TotalServiceTime": 19.5,
+      "deliveryServiceTime": 12.3,
+      "pickupServiceTime": 7.2,
+      "deliveryQuantity": 2,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 478,
+        "end": 614
+      }
+    },
+    {
+      "id": 16,
+      "x": -36.67,
+      "y": 23.102,
+      "TotalServiceTime": 18.0,
+      "deliveryServiceTime": 14.8,
+      "pickupServiceTime": 3.2,
+      "deliveryQuantity": 22,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 340,
+        "end": 431
+      }
+    },
+    {
+      "id": 17,
+      "x": -4.224,
+      "y": -49.31,
+      "TotalServiceTime": 2.5,
+      "deliveryServiceTime": 1.2,
+      "pickupServiceTime": 1.3,
+      "deliveryQuantity": 2,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 224,
+        "end": 367
+      }
+    },
+    {
+      "id": 18,
+      "x": 1.093,
+      "y": -7.135,
+      "TotalServiceTime": 16.0,
+      "deliveryServiceTime": 12.1,
+      "pickupServiceTime": 3.9,
+      "deliveryQuantity": 12,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 240,
+        "end": 370
+      }
+    },
+    {
+      "id": 19,
+      "x": -56.958,
+      "y": 27.905,
+      "TotalServiceTime": 11.0,
+      "deliveryServiceTime": 7.5,
+      "pickupServiceTime": 3.5,
+      "deliveryQuantity": 9,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 160,
+        "end": 290
+      }
+    },
+    {
+      "id": 20,
+      "x": -80.994,
+      "y": -77.686,
+      "TotalServiceTime": 4.5,
+      "deliveryServiceTime": 2.2,
+      "pickupServiceTime": 2.3,
+      "deliveryQuantity": 21,
+      "pickupQuantity": 3,
+      "category": "A",
+      "timeWindow": {
+        "start": 214,
+        "end": 383
+      }
+    },
+    {
+      "id": 21,
+      "x": 72.26,
+      "y": 59.027,
+      "TotalServiceTime": 24.5,
+      "deliveryServiceTime": 21.0,
+      "pickupServiceTime": 3.5,
+      "deliveryQuantity": 10,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 455,
+        "end": 565
+      }
+    },
+    {
+      "id": 22,
+      "x": -21.655,
+      "y": 1.636,
+      "TotalServiceTime": 2.5,
+      "deliveryServiceTime": 0.5,
+      "pickupServiceTime": 2.0,
+      "deliveryQuantity": 13,
+      "pickupQuantity": 3,
+      "category": "A",
+      "timeWindow": {
+        "start": 381,
+        "end": 551
+      }
+    },
+    {
+      "id": 23,
+      "x": -20.154,
+      "y": -62.415,
+      "TotalServiceTime": 24.5,
+      "deliveryServiceTime": 17.7,
+      "pickupServiceTime": 6.8,
+      "deliveryQuantity": 25,
+      "pickupQuantity": 5,
+      "category": "A",
+      "timeWindow": {
+        "start": 154,
+        "end": 317
+      }
+    },
+    {
+      "id": 24,
+      "x": -48.157,
+      "y": 6.287,
+      "TotalServiceTime": 22.5,
+      "deliveryServiceTime": 19.0,
+      "pickupServiceTime": 3.5,
+      "deliveryQuantity": 9,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 239,
+        "end": 354
+      }
+    },
+    {
+      "id": 25,
+      "x": -5.078,
+      "y": 61.597,
+      "TotalServiceTime": 20.5,
+      "deliveryServiceTime": 12.0,
+      "pickupServiceTime": 8.5,
+      "deliveryQuantity": 19,
+      "pickupQuantity": 7,
+      "category": "B",
+      "timeWindow": {
+        "start": 200,
+        "end": 331
+      }
+    },
+    {
+      "id": 26,
+      "x": 17.145,
+      "y": -47.046,
+      "TotalServiceTime": 8.5,
+      "deliveryServiceTime": 5.4,
+      "pickupServiceTime": 3.1,
+      "deliveryQuantity": 22,
+      "pickupQuantity": 3,
+      "category": "A",
+      "timeWindow": {
+        "start": 336,
+        "end": 435
+      }
+    },
+    {
+      "id": 27,
+      "x": -16.064,
+      "y": 8.557,
+      "TotalServiceTime": 11.5,
+      "deliveryServiceTime": 8.2,
+      "pickupServiceTime": 3.3,
+      "deliveryQuantity": 4,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 171,
+        "end": 304
+      }
+    },
+    {
+      "id": 28,
+      "x": 6.683,
+      "y": -27.069,
+      "TotalServiceTime": 4.5,
+      "deliveryServiceTime": 2.7,
+      "pickupServiceTime": 1.8,
+      "deliveryQuantity": 4,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 122,
+        "end": 249
+      }
+    },
+    {
+      "id": 29,
+      "x": 15.027,
+      "y": -34.979,
+      "TotalServiceTime": 16.0,
+      "deliveryServiceTime": 11.1,
+      "pickupServiceTime": 4.9,
+      "deliveryQuantity": 7,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 115,
+        "end": 227
+      }
+    },
+    {
+      "id": 30,
+      "x": 37.946,
+      "y": 73.914,
+      "TotalServiceTime": 17.0,
+      "deliveryServiceTime": 11.8,
+      "pickupServiceTime": 5.2,
+      "deliveryQuantity": 20,
+      "pickupQuantity": 4,
+      "category": "A",
+      "timeWindow": {
+        "start": 310,
+        "end": 468
+      }
+    },
+    {
+      "id": 31,
+      "x": -41.199,
+      "y": -43.018,
+      "TotalServiceTime": 10.0,
+      "deliveryServiceTime": 7.3,
+      "pickupServiceTime": 2.7,
+      "deliveryQuantity": 17,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 164,
+        "end": 259
+      }
+    },
+    {
+      "id": 32,
+      "x": 32.538,
+      "y": 11.786,
+      "TotalServiceTime": 17.0,
+      "deliveryServiceTime": 11.7,
+      "pickupServiceTime": 5.3,
+      "deliveryQuantity": 19,
+      "pickupQuantity": 4,
+      "category": "A",
+      "timeWindow": {
+        "start": 229,
+        "end": 384
+      }
+    },
+    {
+      "id": 33,
+      "x": -20.306,
+      "y": -20.239,
+      "TotalServiceTime": 2.0,
+      "deliveryServiceTime": 0.5,
+      "pickupServiceTime": 1.5,
+      "deliveryQuantity": 12,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 78,
+        "end": 195
+      }
+    },
+    {
+      "id": 34,
+      "x": -35.48,
+      "y": 19.135,
+      "TotalServiceTime": 13.5,
+      "deliveryServiceTime": 8.3,
+      "pickupServiceTime": 5.2,
+      "deliveryQuantity": 2,
+      "pickupQuantity": 1,
+      "category": "B",
+      "timeWindow": {
+        "start": 191,
+        "end": 343
+      }
+    },
+    {
+      "id": 35,
+      "x": 58.038,
+      "y": 56.659,
+      "TotalServiceTime": 18.0,
+      "deliveryServiceTime": 14.0,
+      "pickupServiceTime": 4.0,
+      "deliveryQuantity": 13,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 214,
+        "end": 349
+      }
+    },
+    {
+      "id": 36,
+      "x": -36.694,
+      "y": -6.256,
+      "TotalServiceTime": 19.5,
+      "deliveryServiceTime": 13.4,
+      "pickupServiceTime": 6.1,
+      "deliveryQuantity": 24,
+      "pickupQuantity": 5,
+      "category": "A",
+      "timeWindow": {
+        "start": 192,
+        "end": 294
+      }
+    },
+    {
+      "id": 37,
+      "x": 0.446,
+      "y": -46.735,
+      "TotalServiceTime": 26.5,
+      "deliveryServiceTime": 21.2,
+      "pickupServiceTime": 5.3,
+      "deliveryQuantity": 22,
+      "pickupQuantity": 3,
+      "category": "A",
+      "timeWindow": {
+        "start": 199,
+        "end": 335
+      }
+    },
+    {
+      "id": 38,
+      "x": -19.69,
+      "y": 38.977,
+      "TotalServiceTime": 6.0,
+      "deliveryServiceTime": 3.7,
+      "pickupServiceTime": 2.3,
+      "deliveryQuantity": 17,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 339,
+        "end": 476
+      }
+    },
+    {
+      "id": 39,
+      "x": -47.339,
+      "y": 20.911,
+      "TotalServiceTime": 26.5,
+      "deliveryServiceTime": 20.9,
+      "pickupServiceTime": 5.6,
+      "deliveryQuantity": 19,
+      "pickupQuantity": 3,
+      "category": "A",
+      "timeWindow": {
+        "start": 153,
+        "end": 296
+      }
+    },
+    {
+      "id": 40,
+      "x": -79.236,
+      "y": -57.678,
+      "TotalServiceTime": 2.5,
+      "deliveryServiceTime": 1.3,
+      "pickupServiceTime": 1.2,
+      "deliveryQuantity": 4,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 209,
+        "end": 315
+      }
+    },
+    {
+      "id": 41,
+      "x": 5.597,
+      "y": -34.076,
+      "TotalServiceTime": 10.0,
+      "deliveryServiceTime": 7.0,
+      "pickupServiceTime": 3.0,
+      "deliveryQuantity": 12,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 318,
+        "end": 451
+      }
+    },
+    {
+      "id": 42,
+      "x": 34.454,
+      "y": -8.289,
+      "TotalServiceTime": 8.0,
+      "deliveryServiceTime": 5.6,
+      "pickupServiceTime": 2.4,
+      "deliveryQuantity": 22,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 440,
+        "end": 549
+      }
+    },
+    {
+      "id": 43,
+      "x": 18.5,
+      "y": -51.154,
+      "TotalServiceTime": 5.5,
+      "deliveryServiceTime": 3.0,
+      "pickupServiceTime": 2.5,
+      "deliveryQuantity": 2,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 184,
+        "end": 306
+      }
+    },
+    {
+      "id": 44,
+      "x": -4.346,
+      "y": -44.525,
+      "TotalServiceTime": 4.0,
+      "deliveryServiceTime": 0,
+      "pickupServiceTime": 4.0,
+      "deliveryQuantity": 0,
+      "pickupQuantity": 2,
+      "category": "C",
+      "timeWindow": {
+        "start": 386,
+        "end": 557
+      }
+    },
+    {
+      "id": 45,
+      "x": -14.148,
+      "y": -74.164,
+      "TotalServiceTime": 17.5,
+      "deliveryServiceTime": 12.2,
+      "pickupServiceTime": 5.2,
+      "deliveryQuantity": 3,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 72,
+        "end": 231
+      }
+    },
+    {
+      "id": 46,
+      "x": 19.867,
+      "y": 77.515,
+      "TotalServiceTime": 12.5,
+      "deliveryServiceTime": 9.3,
+      "pickupServiceTime": 3.2,
+      "deliveryQuantity": 5,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 188,
+        "end": 317
+      }
+    },
+    {
+      "id": 47,
+      "x": -50.079,
+      "y": 17.871,
+      "TotalServiceTime": 22.5,
+      "deliveryServiceTime": 17.7,
+      "pickupServiceTime": 4.8,
+      "deliveryQuantity": 22,
+      "pickupQuantity": 3,
+      "category": "A",
+      "timeWindow": {
+        "start": 407,
+        "end": 522
+      }
+    },
+    {
+      "id": 48,
+      "x": 42.786,
+      "y": -79.883,
+      "TotalServiceTime": 19.0,
+      "deliveryServiceTime": 13.0,
+      "pickupServiceTime": 6.0,
+      "deliveryQuantity": 6,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 245,
+        "end": 400
+      }
+    },
+    {
+      "id": 49,
+      "x": 1.52,
+      "y": -29.034,
+      "TotalServiceTime": 9.0,
+      "deliveryServiceTime": 5.9,
+      "pickupServiceTime": 3.1,
+      "deliveryQuantity": 9,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 385,
+        "end": 485
+      }
+    },
+    {
+      "id": 50,
+      "x": 14.728,
+      "y": -3.436,
+      "TotalServiceTime": 16.0,
+      "deliveryServiceTime": 9.0,
+      "pickupServiceTime": 7.0,
+      "deliveryQuantity": 8,
+      "pickupQuantity": 4,
+      "category": "B",
+      "timeWindow": {
+        "start": 137,
+        "end": 306
+      }
+    },
+    {
+      "id": 51,
+      "x": -26.166,
+      "y": -48.999,
+      "TotalServiceTime": 23.5,
+      "deliveryServiceTime": 18.8,
+      "pickupServiceTime": 4.7,
+      "deliveryQuantity": 24,
+      "pickupQuantity": 3,
+      "category": "A",
+      "timeWindow": {
+        "start": 68,
+        "end": 196
+      }
+    },
+    {
+      "id": 52,
+      "x": -63.873,
+      "y": -5.273,
+      "TotalServiceTime": 18.5,
+      "deliveryServiceTime": 11.5,
+      "pickupServiceTime": 7.0,
+      "deliveryQuantity": 15,
+      "pickupQuantity": 5,
+      "category": "B",
+      "timeWindow": {
+        "start": 71,
+        "end": 178
+      }
+    },
+    {
+      "id": 53,
+      "x": -54.138,
+      "y": 7.086,
+      "TotalServiceTime": 22.0,
+      "deliveryServiceTime": 0,
+      "pickupServiceTime": 22.0,
+      "deliveryQuantity": 0,
+      "pickupQuantity": 2,
+      "category": "C",
+      "timeWindow": {
+        "start": 72,
+        "end": 204
+      }
+    },
+    {
+      "id": 54,
+      "x": 17.932,
+      "y": -34.094,
+      "TotalServiceTime": 7.5,
+      "deliveryServiceTime": 5.5,
+      "pickupServiceTime": 2.0,
+      "deliveryQuantity": 9,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 177,
+        "end": 300
+      }
+    },
+    {
+      "id": 55,
+      "x": -98.706,
+      "y": 34.552,
+      "TotalServiceTime": 12.5,
+      "deliveryServiceTime": 6.0,
+      "pickupServiceTime": 6.5,
+      "deliveryQuantity": 1,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 339,
+        "end": 467
+      }
+    },
+    {
+      "id": 56,
+      "x": 28.802,
+      "y": -8.582,
+      "TotalServiceTime": 6.0,
+      "deliveryServiceTime": 1.2,
+      "pickupServiceTime": 4.8,
+      "deliveryQuantity": 18,
+      "pickupQuantity": 8,
+      "category": "B",
+      "timeWindow": {
+        "start": 307,
+        "end": 443
+      }
+    },
+    {
+      "id": 57,
+      "x": 2.716,
+      "y": 90.594,
+      "TotalServiceTime": 6.5,
+      "deliveryServiceTime": 3.5,
+      "pickupServiceTime": 3.0,
+      "deliveryQuantity": 17,
+      "pickupQuantity": 3,
+      "category": "A",
+      "timeWindow": {
+        "start": 164,
+        "end": 339
+      }
+    },
+    {
+      "id": 58,
+      "x": -31.024,
+      "y": 48.938,
+      "TotalServiceTime": 4.0,
+      "deliveryServiceTime": 2.2,
+      "pickupServiceTime": 1.8,
+      "deliveryQuantity": 18,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 277,
+        "end": 450
+      }
+    },
+    {
+      "id": 59,
+      "x": -46.545,
+      "y": 42.316,
+      "TotalServiceTime": 11.5,
+      "deliveryServiceTime": 7.0,
+      "pickupServiceTime": 4.5,
+      "deliveryQuantity": 2,
+      "pickupQuantity": 1,
+      "category": "B",
+      "timeWindow": {
+        "start": 107,
+        "end": 231
+      }
+    },
+    {
+      "id": 60,
+      "x": 27.289,
+      "y": 58.179,
+      "TotalServiceTime": 4.5,
+      "deliveryServiceTime": 1.3,
+      "pickupServiceTime": 3.2,
+      "deliveryQuantity": 25,
+      "pickupQuantity": 5,
+      "category": "A",
+      "timeWindow": {
+        "start": 278,
+        "end": 373
+      }
+    },
+    {
+      "id": 61,
+      "x": 28.815,
+      "y": -28.027,
+      "TotalServiceTime": 7.5,
+      "deliveryServiceTime": 0,
+      "pickupServiceTime": 7.5,
+      "deliveryQuantity": 0,
+      "pickupQuantity": 1,
+      "category": "C",
+      "timeWindow": {
+        "start": 407,
+        "end": 554
+      }
+    },
+    {
+      "id": 62,
+      "x": -26.099,
+      "y": 11.328,
+      "TotalServiceTime": 23.5,
+      "deliveryServiceTime": 14.2,
+      "pickupServiceTime": 9.3,
+      "deliveryQuantity": 19,
+      "pickupQuantity": 7,
+      "category": "B",
+      "timeWindow": {
+        "start": 123,
+        "end": 273
+      }
+    },
+    {
+      "id": 63,
+      "x": 0.537,
+      "y": -26.221,
+      "TotalServiceTime": 7.5,
+      "deliveryServiceTime": 5.5,
+      "pickupServiceTime": 2.0,
+      "deliveryQuantity": 10,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 322,
+        "end": 466
+      }
+    },
+    {
+      "id": 64,
+      "x": -50.458,
+      "y": 7.812,
+      "TotalServiceTime": 11.5,
+      "deliveryServiceTime": 7.0,
+      "pickupServiceTime": 4.5,
+      "deliveryQuantity": 2,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 425,
+        "end": 575
+      }
+    },
+    {
+      "id": 65,
+      "x": 30.005,
+      "y": 19.092,
+      "TotalServiceTime": 25.5,
+      "deliveryServiceTime": 20.2,
+      "pickupServiceTime": 5.2,
+      "deliveryQuantity": 21,
+      "pickupQuantity": 3,
+      "category": "A",
+      "timeWindow": {
+        "start": 122,
+        "end": 235
+      }
+    },
+    {
+      "id": 66,
+      "x": -12.604,
+      "y": 22.058,
+      "TotalServiceTime": 20.0,
+      "deliveryServiceTime": 9.7,
+      "pickupServiceTime": 10.3,
+      "deliveryQuantity": 20,
+      "pickupQuantity": 10,
+      "category": "B",
+      "timeWindow": {
+        "start": 170,
+        "end": 310
+      }
+    },
+    {
+      "id": 67,
+      "x": 22.009,
+      "y": -8.636,
+      "TotalServiceTime": 7.0,
+      "deliveryServiceTime": 3.5,
+      "pickupServiceTime": 3.5,
+      "deliveryQuantity": 21,
+      "pickupQuantity": 4,
+      "category": "A",
+      "timeWindow": {
+        "start": 109,
+        "end": 216
+      }
+    },
+    {
+      "id": 68,
+      "x": 8.942,
+      "y": 2.875,
+      "TotalServiceTime": 25.5,
+      "deliveryServiceTime": 16.3,
+      "pickupServiceTime": 9.2,
+      "deliveryQuantity": 2,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 78,
+        "end": 251
+      }
+    },
+    {
+      "id": 69,
+      "x": -19.812,
+      "y": 0.922,
+      "TotalServiceTime": 12.5,
+      "deliveryServiceTime": 9.6,
+      "pickupServiceTime": 2.9,
+      "deliveryQuantity": 6,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 477,
+        "end": 634
+      }
+    },
+    {
+      "id": 70,
+      "x": -4.23,
+      "y": 31.25,
+      "TotalServiceTime": 22.5,
+      "deliveryServiceTime": 14.3,
+      "pickupServiceTime": 8.2,
+      "deliveryQuantity": 2,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 338,
+        "end": 435
+      }
+    },
+    {
+      "id": 71,
+      "x": 17.975,
+      "y": -0.409,
+      "TotalServiceTime": 11.5,
+      "deliveryServiceTime": 0,
+      "pickupServiceTime": 11.5,
+      "deliveryQuantity": 0,
+      "pickupQuantity": 1,
+      "category": "C",
+      "timeWindow": {
+        "start": 166,
+        "end": 308
+      }
+    },
+    {
+      "id": 72,
+      "x": -2.35,
+      "y": 42.938,
+      "TotalServiceTime": 17.0,
+      "deliveryServiceTime": 13.0,
+      "pickupServiceTime": 4.0,
+      "deliveryQuantity": 12,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 429,
+        "end": 534
+      }
+    },
+    {
+      "id": 73,
+      "x": -16.516,
+      "y": 68.085,
+      "TotalServiceTime": 11.0,
+      "deliveryServiceTime": 6.7,
+      "pickupServiceTime": 4.3,
+      "deliveryQuantity": 5,
+      "pickupQuantity": 2,
+      "category": "B",
+      "timeWindow": {
+        "start": 203,
+        "end": 355
+      }
+    },
+    {
+      "id": 74,
+      "x": -1.19,
+      "y": 42.023,
+      "TotalServiceTime": 3.5,
+      "deliveryServiceTime": 2.1,
+      "pickupServiceTime": 1.4,
+      "deliveryQuantity": 5,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 119,
+        "end": 278
+      }
+    },
+    {
+      "id": 75,
+      "x": 56.635,
+      "y": -44.019,
+      "TotalServiceTime": 10.5,
+      "deliveryServiceTime": 8.1,
+      "pickupServiceTime": 2.4,
+      "deliveryQuantity": 8,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 450,
+        "end": 620
+      }
+    },
+    {
+      "id": 76,
+      "x": 57.483,
+      "y": 35.504,
+      "TotalServiceTime": 18.5,
+      "deliveryServiceTime": 13.5,
+      "pickupServiceTime": 5.0,
+      "deliveryQuantity": 15,
+      "pickupQuantity": 3,
+      "category": "A",
+      "timeWindow": {
+        "start": 100,
+        "end": 236
+      }
+    },
+    {
+      "id": 77,
+      "x": -26.099,
+      "y": 7.477,
+      "TotalServiceTime": 2.5,
+      "deliveryServiceTime": 1.4,
+      "pickupServiceTime": 1.1,
+      "deliveryQuantity": 8,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 285,
+        "end": 430
+      }
+    },
+    {
+      "id": 78,
+      "x": 7.489,
+      "y": -57.239,
+      "TotalServiceTime": 22.0,
+      "deliveryServiceTime": 15.8,
+      "pickupServiceTime": 6.2,
+      "deliveryQuantity": 7,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 106,
+        "end": 249
+      }
+    },
+    {
+      "id": 79,
+      "x": -22.095,
+      "y": 55.78,
+      "TotalServiceTime": 16.5,
+      "deliveryServiceTime": 0,
+      "pickupServiceTime": 16.5,
+      "deliveryQuantity": 0,
+      "pickupQuantity": 1,
+      "category": "C",
+      "timeWindow": {
+        "start": 116,
+        "end": 220
+      }
+    },
+    {
+      "id": 80,
+      "x": 19.867,
+      "y": 38.824,
+      "TotalServiceTime": 8.0,
+      "deliveryServiceTime": 4.3,
+      "pickupServiceTime": 3.7,
+      "deliveryQuantity": 18,
+      "pickupQuantity": 4,
+      "category": "A",
+      "timeWindow": {
+        "start": 107,
+        "end": 258
+      }
+    },
+    {
+      "id": 81,
+      "x": 5.31,
+      "y": 49.219,
+      "TotalServiceTime": 16.0,
+      "deliveryServiceTime": 7.8,
+      "pickupServiceTime": 8.2,
+      "deliveryQuantity": 17,
+      "pickupQuantity": 8,
+      "category": "B",
+      "timeWindow": {
+        "start": 407,
+        "end": 513
+      }
+    },
+    {
+      "id": 82,
+      "x": 15.155,
+      "y": 6.299,
+      "TotalServiceTime": 23.5,
+      "deliveryServiceTime": 18.5,
+      "pickupServiceTime": 5.0,
+      "deliveryQuantity": 5,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 317,
+        "end": 429
+      }
+    },
+    {
+      "id": 83,
+      "x": 5.481,
+      "y": -31.5,
+      "TotalServiceTime": 23.5,
+      "deliveryServiceTime": 19.0,
+      "pickupServiceTime": 4.5,
+      "deliveryQuantity": 6,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 132,
+        "end": 267
+      }
+    },
+    {
+      "id": 84,
+      "x": 7.959,
+      "y": -28.662,
+      "TotalServiceTime": 18.5,
+      "deliveryServiceTime": 15.4,
+      "pickupServiceTime": 3.1,
+      "deliveryQuantity": 9,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 167,
+        "end": 319
+      }
+    },
+    {
+      "id": 85,
+      "x": -75.812,
+      "y": 4.01,
+      "TotalServiceTime": 20.0,
+      "deliveryServiceTime": 14.7,
+      "pickupServiceTime": 5.3,
+      "deliveryQuantity": 24,
+      "pickupQuantity": 4,
+      "category": "A",
+      "timeWindow": {
+        "start": 179,
+        "end": 290
+      }
+    },
+    {
+      "id": 86,
+      "x": -43.671,
+      "y": -61.646,
+      "TotalServiceTime": 15.5,
+      "deliveryServiceTime": 10.8,
+      "pickupServiceTime": 4.8,
+      "deliveryQuantity": 13,
+      "pickupQuantity": 3,
+      "category": "A",
+      "timeWindow": {
+        "start": 360,
+        "end": 477
+      }
+    },
+    {
+      "id": 87,
+      "x": -2.576,
+      "y": -62.14,
+      "TotalServiceTime": 2.5,
+      "deliveryServiceTime": 1.3,
+      "pickupServiceTime": 1.2,
+      "deliveryQuantity": 5,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 173,
+        "end": 269
+      }
+    },
+    {
+      "id": 88,
+      "x": -18.842,
+      "y": -36.884,
+      "TotalServiceTime": 11.5,
+      "deliveryServiceTime": 8.2,
+      "pickupServiceTime": 3.3,
+      "deliveryQuantity": 4,
+      "pickupQuantity": 1,
+      "category": "B",
+      "timeWindow": {
+        "start": 198,
+        "end": 332
+      }
+    },
+    {
+      "id": 89,
+      "x": 20.844,
+      "y": 21.167,
+      "TotalServiceTime": 24.5,
+      "deliveryServiceTime": 0,
+      "pickupServiceTime": 24.5,
+      "deliveryQuantity": 0,
+      "pickupQuantity": 1,
+      "category": "C",
+      "timeWindow": {
+        "start": 103,
+        "end": 262
+      }
+    },
+    {
+      "id": 90,
+      "x": 3.137,
+      "y": -19.22,
+      "TotalServiceTime": 15.5,
+      "deliveryServiceTime": 11.7,
+      "pickupServiceTime": 3.8,
+      "deliveryQuantity": 24,
+      "pickupQuantity": 3,
+      "category": "A",
+      "timeWindow": {
+        "start": 168,
+        "end": 280
+      }
+    },
+    {
+      "id": 91,
+      "x": -20.361,
+      "y": 18.878,
+      "TotalServiceTime": 5.0,
+      "deliveryServiceTime": 2.2,
+      "pickupServiceTime": 2.8,
+      "deliveryQuantity": 25,
+      "pickupQuantity": 4,
+      "category": "A",
+      "timeWindow": {
+        "start": 296,
+        "end": 469
+      }
+    },
+    {
+      "id": 92,
+      "x": -0.897,
+      "y": -54.938,
+      "TotalServiceTime": 21.5,
+      "deliveryServiceTime": 18.1,
+      "pickupServiceTime": 3.4,
+      "deliveryQuantity": 9,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 296,
+        "end": 419
+      }
+    },
+    {
+      "id": 93,
+      "x": -29.553,
+      "y": 9.277,
+      "TotalServiceTime": 8.5,
+      "deliveryServiceTime": 6.3,
+      "pickupServiceTime": 2.2,
+      "deliveryQuantity": 8,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 169,
+        "end": 322
+      }
+    },
+    {
+      "id": 94,
+      "x": 5.048,
+      "y": -35.046,
+      "TotalServiceTime": 19.5,
+      "deliveryServiceTime": 16.1,
+      "pickupServiceTime": 3.4,
+      "deliveryQuantity": 8,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 61,
+        "end": 181
+      }
+    },
+    {
+      "id": 95,
+      "x": 27.759,
+      "y": 48.712,
+      "TotalServiceTime": 9.5,
+      "deliveryServiceTime": 5.2,
+      "pickupServiceTime": 4.3,
+      "deliveryQuantity": 25,
+      "pickupQuantity": 5,
+      "category": "A",
+      "timeWindow": {
+        "start": 245,
+        "end": 408
+      }
+    },
+    {
+      "id": 96,
+      "x": 12.079,
+      "y": -42.346,
+      "TotalServiceTime": 20.5,
+      "deliveryServiceTime": 12.9,
+      "pickupServiceTime": 7.6,
+      "deliveryQuantity": 7,
+      "pickupQuantity": 3,
+      "category": "B",
+      "timeWindow": {
+        "start": 454,
+        "end": 574
+      }
+    },
+    {
+      "id": 97,
+      "x": -51.27,
+      "y": 41.144,
+      "TotalServiceTime": 25.0,
+      "deliveryServiceTime": 19.0,
+      "pickupServiceTime": 6.0,
+      "deliveryQuantity": 24,
+      "pickupQuantity": 4,
+      "category": "A",
+      "timeWindow": {
+        "start": 295,
+        "end": 434
+      }
+    },
+    {
+      "id": 98,
+      "x": -29.077,
+      "y": 4.291,
+      "TotalServiceTime": 8.5,
+      "deliveryServiceTime": 0,
+      "pickupServiceTime": 8.5,
+      "deliveryQuantity": 0,
+      "pickupQuantity": 1,
+      "category": "C",
+      "timeWindow": {
+        "start": 119,
+        "end": 248
+      }
+    },
+    {
+      "id": 99,
+      "x": -18.555,
+      "y": -14.819,
+      "TotalServiceTime": 19.0,
+      "deliveryServiceTime": 15.1,
+      "pickupServiceTime": 3.9,
+      "deliveryQuantity": 15,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 183,
+        "end": 342
+      }
+    },
+    {
+      "id": 100,
+      "x": 7.855,
+      "y": -49.451,
+      "TotalServiceTime": 8.0,
+      "deliveryServiceTime": 4.9,
+      "pickupServiceTime": 3.1,
+      "deliveryQuantity": 7,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 434,
+        "end": 553
+      }
+    },
+    {
+      "id": 101,
+      "x": -19.116,
+      "y": -32.086,
+      "TotalServiceTime": 3.0,
+      "deliveryServiceTime": 0.5,
+      "pickupServiceTime": 2.5,
+      "deliveryQuantity": 17,
+      "pickupQuantity": 4,
+      "category": "A",
+      "timeWindow": {
+        "start": 82,
+        "end": 175
+      }
+    },
+    {
+      "id": 102,
+      "x": 17.651,
+      "y": -52.271,
+      "TotalServiceTime": 9.5,
+      "deliveryServiceTime": 7.3,
+      "pickupServiceTime": 2.2,
+      "deliveryQuantity": 9,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 135,
+        "end": 283
+      }
+    },
+    {
+      "id": 103,
+      "x": 16.907,
+      "y": -62.964,
+      "TotalServiceTime": 6.5,
+      "deliveryServiceTime": 3.5,
+      "pickupServiceTime": 3.0,
+      "deliveryQuantity": 14,
+      "pickupQuantity": 3,
+      "category": "A",
+      "timeWindow": {
+        "start": 311,
+        "end": 454
+      }
+    },
+    {
+      "id": 104,
+      "x": 18.988,
+      "y": 6.219,
+      "TotalServiceTime": 24.0,
+      "deliveryServiceTime": 0,
+      "pickupServiceTime": 24.0,
+      "deliveryQuantity": 0,
+      "pickupQuantity": 2,
+      "category": "C",
+      "timeWindow": {
+        "start": 217,
+        "end": 333
+      }
+    },
+    {
+      "id": 105,
+      "x": -68.878,
+      "y": -64.539,
+      "TotalServiceTime": 18.5,
+      "deliveryServiceTime": 14.7,
+      "pickupServiceTime": 3.8,
+      "deliveryQuantity": 6,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 410,
+        "end": 542
+      }
+    },
+    {
+      "id": 106,
+      "x": -13.361,
+      "y": 20.264,
+      "TotalServiceTime": 8.0,
+      "deliveryServiceTime": 3.2,
+      "pickupServiceTime": 4.8,
+      "deliveryQuantity": 17,
+      "pickupQuantity": 6,
+      "category": "B",
+      "timeWindow": {
+        "start": 143,
+        "end": 306
+      }
+    },
+    {
+      "id": 107,
+      "x": -44.44,
+      "y": 63.721,
+      "TotalServiceTime": 18.0,
+      "deliveryServiceTime": 14.8,
+      "pickupServiceTime": 3.2,
+      "deliveryQuantity": 23,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 233,
+        "end": 347
+      }
+    },
+    {
+      "id": 108,
+      "x": -6.5,
+      "y": 71.436,
+      "TotalServiceTime": 10.0,
+      "deliveryServiceTime": 7.1,
+      "pickupServiceTime": 2.9,
+      "deliveryQuantity": 14,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 195,
+        "end": 300
+      }
+    },
+    {
+      "id": 109,
+      "x": -51.978,
+      "y": 25.409,
+      "TotalServiceTime": 20.5,
+      "deliveryServiceTime": 15.7,
+      "pickupServiceTime": 4.8,
+      "deliveryQuantity": 19,
+      "pickupQuantity": 3,
+      "category": "A",
+      "timeWindow": {
+        "start": 143,
+        "end": 241
+      }
+    },
+    {
+      "id": 110,
+      "x": -0.739,
+      "y": 59.491,
+      "TotalServiceTime": 21.0,
+      "deliveryServiceTime": 17.4,
+      "pickupServiceTime": 3.6,
+      "deliveryQuantity": 21,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 268,
+        "end": 445
+      }
+    },
+    {
+      "id": 111,
+      "x": -64.679,
+      "y": 83.038,
+      "TotalServiceTime": 1.5,
+      "deliveryServiceTime": 0.5,
+      "pickupServiceTime": 1.0,
+      "deliveryQuantity": 6,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 154,
+        "end": 257
+      }
+    },
+    {
+      "id": 112,
+      "x": -11.273,
+      "y": -35.944,
+      "TotalServiceTime": 18.5,
+      "deliveryServiceTime": 9.0,
+      "pickupServiceTime": 9.5,
+      "deliveryQuantity": 1,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 255,
+        "end": 406
+      }
+    },
+    {
+      "id": 113,
+      "x": -16.864,
+      "y": 7.776,
+      "TotalServiceTime": 16.5,
+      "deliveryServiceTime": 12.4,
+      "pickupServiceTime": 4.1,
+      "deliveryQuantity": 22,
+      "pickupQuantity": 3,
+      "category": "A",
+      "timeWindow": {
+        "start": 142,
+        "end": 254
+      }
+    },
+    {
+      "id": 114,
+      "x": 19.843,
+      "y": -49.805,
+      "TotalServiceTime": 11.0,
+      "deliveryServiceTime": 7.2,
+      "pickupServiceTime": 3.8,
+      "deliveryQuantity": 7,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 311,
+        "end": 452
+      }
+    },
+    {
+      "id": 115,
+      "x": -16.284,
+      "y": -2.936,
+      "TotalServiceTime": 9.0,
+      "deliveryServiceTime": 6.2,
+      "pickupServiceTime": 2.8,
+      "deliveryQuantity": 14,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 137,
+        "end": 238
+      }
+    },
+    {
+      "id": 116,
+      "x": 8.356,
+      "y": 67.041,
+      "TotalServiceTime": 14.5,
+      "deliveryServiceTime": 11.5,
+      "pickupServiceTime": 3.0,
+      "deliveryQuantity": 7,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 281,
+        "end": 381
+      }
+    },
+    {
+      "id": 117,
+      "x": 30.878,
+      "y": 24.316,
+      "TotalServiceTime": 16.5,
+      "deliveryServiceTime": 12.6,
+      "pickupServiceTime": 3.9,
+      "deliveryQuantity": 25,
+      "pickupQuantity": 3,
+      "category": "A",
+      "timeWindow": {
+        "start": 289,
+        "end": 419
+      }
+    },
+    {
+      "id": 118,
+      "x": 93.524,
+      "y": -20.233,
+      "TotalServiceTime": 18.5,
+      "deliveryServiceTime": 13.8,
+      "pickupServiceTime": 4.8,
+      "deliveryQuantity": 17,
+      "pickupQuantity": 3,
+      "category": "A",
+      "timeWindow": {
+        "start": 329,
+        "end": 478
+      }
+    },
+    {
+      "id": 119,
+      "x": -9.332,
+      "y": -56.177,
+      "TotalServiceTime": 11.0,
+      "deliveryServiceTime": 6.0,
+      "pickupServiceTime": 5.0,
+      "deliveryQuantity": 10,
+      "pickupQuantity": 4,
+      "category": "B",
+      "timeWindow": {
+        "start": 359,
+        "end": 504
+      }
+    },
+    {
+      "id": 120,
+      "x": -34.442,
+      "y": -63.312,
+      "TotalServiceTime": 15.0,
+      "deliveryServiceTime": 10.4,
+      "pickupServiceTime": 4.6,
+      "deliveryQuantity": 23,
+      "pickupQuantity": 4,
+      "category": "A",
+      "timeWindow": {
+        "start": 398,
+        "end": 566
+      }
+    },
+    {
+      "id": 121,
+      "x": 20.941,
+      "y": -5.646,
+      "TotalServiceTime": 20.5,
+      "deliveryServiceTime": 14.0,
+      "pickupServiceTime": 6.5,
+      "deliveryQuantity": 22,
+      "pickupQuantity": 5,
+      "category": "A",
+      "timeWindow": {
+        "start": 448,
+        "end": 562
+      }
+    },
+    {
+      "id": 122,
+      "x": -3.418,
+      "y": 89.594,
+      "TotalServiceTime": 20.5,
+      "deliveryServiceTime": 14.5,
+      "pickupServiceTime": 6.0,
+      "deliveryQuantity": 3,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 115,
+        "end": 288
+      }
+    },
+    {
+      "id": 123,
+      "x": -18.738,
+      "y": 45.227,
+      "TotalServiceTime": 10.5,
+      "deliveryServiceTime": 5.4,
+      "pickupServiceTime": 5.1,
+      "deliveryQuantity": 14,
+      "pickupQuantity": 5,
+      "category": "B",
+      "timeWindow": {
+        "start": 261,
+        "end": 387
+      }
+    },
+    {
+      "id": 124,
+      "x": 2.435,
+      "y": -30.524,
+      "TotalServiceTime": 3.0,
+      "deliveryServiceTime": 1.4,
+      "pickupServiceTime": 1.6,
+      "deliveryQuantity": 14,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 112,
+        "end": 287
+      }
+    },
+    {
+      "id": 125,
+      "x": -28.864,
+      "y": 56.616,
+      "TotalServiceTime": 7.5,
+      "deliveryServiceTime": 4.3,
+      "pickupServiceTime": 3.2,
+      "deliveryQuantity": 2,
+      "pickupQuantity": 1,
+      "category": "B",
+      "timeWindow": {
+        "start": 329,
+        "end": 439
+      }
+    },
+    {
+      "id": 126,
+      "x": 76.88,
+      "y": -29.901,
+      "TotalServiceTime": 6.5,
+      "deliveryServiceTime": 3.7,
+      "pickupServiceTime": 2.8,
+      "deliveryQuantity": 2,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 100,
+        "end": 241
+      }
+    },
+    {
+      "id": 127,
+      "x": -90.466,
+      "y": 10.278,
+      "TotalServiceTime": 14.5,
+      "deliveryServiceTime": 9.1,
+      "pickupServiceTime": 5.4,
+      "deliveryQuantity": 21,
+      "pickupQuantity": 5,
+      "category": "A",
+      "timeWindow": {
+        "start": 376,
+        "end": 506
+      }
+    },
+    {
+      "id": 128,
+      "x": -35.101,
+      "y": 46.545,
+      "TotalServiceTime": 12.5,
+      "deliveryServiceTime": 10.1,
+      "pickupServiceTime": 2.4,
+      "deliveryQuantity": 10,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 121,
+        "end": 232
+      }
+    },
+    {
+      "id": 129,
+      "x": -48.395,
+      "y": 43.854,
+      "TotalServiceTime": 26.0,
+      "deliveryServiceTime": 20.2,
+      "pickupServiceTime": 5.8,
+      "deliveryQuantity": 10,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 343,
+        "end": 468
+      }
+    },
+    {
+      "id": 130,
+      "x": -40.997,
+      "y": 26.703,
+      "TotalServiceTime": 6.5,
+      "deliveryServiceTime": 4.3,
+      "pickupServiceTime": 2.2,
+      "deliveryQuantity": 5,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 302,
+        "end": 399
+      }
+    },
+    {
+      "id": 131,
+      "x": 13.696,
+      "y": 34.607,
+      "TotalServiceTime": 6.0,
+      "deliveryServiceTime": 3.5,
+      "pickupServiceTime": 2.5,
+      "deliveryQuantity": 9,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 118,
+        "end": 245
+      }
+    },
+    {
+      "id": 132,
+      "x": -71.472,
+      "y": 11.45,
+      "TotalServiceTime": 21.0,
+      "deliveryServiceTime": 16.9,
+      "pickupServiceTime": 4.1,
+      "deliveryQuantity": 15,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 93,
+        "end": 257
+      }
+    },
+    {
+      "id": 133,
+      "x": -36.23,
+      "y": 51.904,
+      "TotalServiceTime": 7.0,
+      "deliveryServiceTime": 1.2,
+      "pickupServiceTime": 5.8,
+      "deliveryQuantity": 19,
+      "pickupQuantity": 10,
+      "category": "B",
+      "timeWindow": {
+        "start": 101,
+        "end": 192
+      }
+    },
+    {
+      "id": 134,
+      "x": -39.465,
+      "y": 4.907,
+      "TotalServiceTime": 26.0,
+      "deliveryServiceTime": 18.9,
+      "pickupServiceTime": 7.1,
+      "deliveryQuantity": 7,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 282,
+        "end": 453
+      }
+    },
+    {
+      "id": 135,
+      "x": -16.565,
+      "y": 23.773,
+      "TotalServiceTime": 8.5,
+      "deliveryServiceTime": 4.9,
+      "pickupServiceTime": 3.6,
+      "deliveryQuantity": 11,
+      "pickupQuantity": 3,
+      "category": "B",
+      "timeWindow": {
+        "start": 347,
+        "end": 461
+      }
+    },
+    {
+      "id": 136,
+      "x": 10.754,
+      "y": -28.552,
+      "TotalServiceTime": 7.0,
+      "deliveryServiceTime": 0,
+      "pickupServiceTime": 7.0,
+      "deliveryQuantity": 0,
+      "pickupQuantity": 2,
+      "category": "C",
+      "timeWindow": {
+        "start": 376,
+        "end": 554
+      }
+    },
+    {
+      "id": 137,
+      "x": -23.029,
+      "y": 47.015,
+      "TotalServiceTime": 23.0,
+      "deliveryServiceTime": 17.4,
+      "pickupServiceTime": 5.6,
+      "deliveryQuantity": 25,
+      "pickupQuantity": 4,
+      "category": "A",
+      "timeWindow": {
+        "start": 422,
+        "end": 592
+      }
+    },
+    {
+      "id": 138,
+      "x": -8.807,
+      "y": 21.216,
+      "TotalServiceTime": 20.0,
+      "deliveryServiceTime": 15.9,
+      "pickupServiceTime": 4.1,
+      "deliveryQuantity": 14,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 93,
+        "end": 272
+      }
+    },
+    {
+      "id": 139,
+      "x": -40.039,
+      "y": 27.435,
+      "TotalServiceTime": 23.5,
+      "deliveryServiceTime": 17.7,
+      "pickupServiceTime": 5.8,
+      "deliveryQuantity": 15,
+      "pickupQuantity": 3,
+      "category": "A",
+      "timeWindow": {
+        "start": 209,
+        "end": 349
+      }
+    },
+    {
+      "id": 140,
+      "x": -37.445,
+      "y": -41.04,
+      "TotalServiceTime": 9.0,
+      "deliveryServiceTime": 6.1,
+      "pickupServiceTime": 2.9,
+      "deliveryQuantity": 12,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 85,
+        "end": 193
+      }
+    },
+    {
+      "id": 141,
+      "x": 48.224,
+      "y": 0.085,
+      "TotalServiceTime": 20.5,
+      "deliveryServiceTime": 14.4,
+      "pickupServiceTime": 6.1,
+      "deliveryQuantity": 11,
+      "pickupQuantity": 3,
+      "category": "A",
+      "timeWindow": {
+        "start": 469,
+        "end": 624
+      }
+    },
+    {
+      "id": 142,
+      "x": -0.323,
+      "y": 68.237,
+      "TotalServiceTime": 7.5,
+      "deliveryServiceTime": 4.4,
+      "pickupServiceTime": 3.1,
+      "deliveryQuantity": 17,
+      "pickupQuantity": 3,
+      "category": "A",
+      "timeWindow": {
+        "start": 126,
+        "end": 229
+      }
+    },
+    {
+      "id": 143,
+      "x": -14.294,
+      "y": -33.423,
+      "TotalServiceTime": 24.5,
+      "deliveryServiceTime": 18.6,
+      "pickupServiceTime": 5.9,
+      "deliveryQuantity": 4,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 435,
+        "end": 591
+      }
+    },
+    {
+      "id": 144,
+      "x": -1.44,
+      "y": -34.814,
+      "TotalServiceTime": 17.0,
+      "deliveryServiceTime": 12.1,
+      "pickupServiceTime": 4.9,
+      "deliveryQuantity": 24,
+      "pickupQuantity": 4,
+      "category": "A",
+      "timeWindow": {
+        "start": 390,
+        "end": 481
+      }
+    },
+    {
+      "id": 145,
+      "x": -34.454,
+      "y": 42.346,
+      "TotalServiceTime": 27.0,
+      "deliveryServiceTime": 16.3,
+      "pickupServiceTime": 10.7,
+      "deliveryQuantity": 8,
+      "pickupQuantity": 4,
+      "category": "B",
+      "timeWindow": {
+        "start": 72,
+        "end": 188
+      }
+    },
+    {
+      "id": 146,
+      "x": 8.679,
+      "y": -66.18,
+      "TotalServiceTime": 10.5,
+      "deliveryServiceTime": 3.8,
+      "pickupServiceTime": 6.7,
+      "deliveryQuantity": 20,
+      "pickupQuantity": 9,
+      "category": "B",
+      "timeWindow": {
+        "start": 278,
+        "end": 399
+      }
+    },
+    {
+      "id": 147,
+      "x": -61.249,
+      "y": -51.367,
+      "TotalServiceTime": 21.5,
+      "deliveryServiceTime": 18.5,
+      "pickupServiceTime": 3.0,
+      "deliveryQuantity": 12,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 80,
+        "end": 189
+      }
+    },
+    {
+      "id": 148,
+      "x": -1.093,
+      "y": 9.912,
+      "TotalServiceTime": 5.0,
+      "deliveryServiceTime": 2.8,
+      "pickupServiceTime": 2.2,
+      "deliveryQuantity": 10,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 402,
+        "end": 553
+      }
+    },
+    {
+      "id": 149,
+      "x": -16.565,
+      "y": 66.547,
+      "TotalServiceTime": 11.0,
+      "deliveryServiceTime": 7.9,
+      "pickupServiceTime": 3.1,
+      "deliveryQuantity": 12,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 120,
+        "end": 254
+      }
+    },
+    {
+      "id": 150,
+      "x": 8.435,
+      "y": 52.838,
+      "TotalServiceTime": 17.0,
+      "deliveryServiceTime": 12.5,
+      "pickupServiceTime": 4.5,
+      "deliveryQuantity": 9,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 111,
+        "end": 280
+      }
+    },
+    {
+      "id": 151,
+      "x": -22.034,
+      "y": -36.896,
+      "TotalServiceTime": 14.5,
+      "deliveryServiceTime": 8.6,
+      "pickupServiceTime": 5.9,
+      "deliveryQuantity": 16,
+      "pickupQuantity": 5,
+      "category": "B",
+      "timeWindow": {
+        "start": 133,
+        "end": 262
+      }
+    },
+    {
+      "id": 152,
+      "x": 15.765,
+      "y": 17.322,
+      "TotalServiceTime": 15.0,
+      "deliveryServiceTime": 10.4,
+      "pickupServiceTime": 4.6,
+      "deliveryQuantity": 23,
+      "pickupQuantity": 4,
+      "category": "A",
+      "timeWindow": {
+        "start": 348,
+        "end": 513
+      }
+    },
+    {
+      "id": 153,
+      "x": 9.003,
+      "y": -18.695,
+      "TotalServiceTime": 3.5,
+      "deliveryServiceTime": 1.3,
+      "pickupServiceTime": 2.2,
+      "deliveryQuantity": 15,
+      "pickupQuantity": 3,
+      "category": "A",
+      "timeWindow": {
+        "start": 156,
+        "end": 270
+      }
+    },
+    {
+      "id": 154,
+      "x": -4.584,
+      "y": 3.491,
+      "TotalServiceTime": 5.0,
+      "deliveryServiceTime": 1.9,
+      "pickupServiceTime": 3.1,
+      "deliveryQuantity": 10,
+      "pickupQuantity": 4,
+      "category": "B",
+      "timeWindow": {
+        "start": 437,
+        "end": 561
+      }
+    },
+    {
+      "id": 155,
+      "x": 8.875,
+      "y": 40.662,
+      "TotalServiceTime": 14.5,
+      "deliveryServiceTime": 6.6,
+      "pickupServiceTime": 7.9,
+      "deliveryQuantity": 21,
+      "pickupQuantity": 9,
+      "category": "B",
+      "timeWindow": {
+        "start": 156,
+        "end": 304
+      }
+    },
+    {
+      "id": 156,
+      "x": 26.093,
+      "y": -33.966,
+      "TotalServiceTime": 18.5,
+      "deliveryServiceTime": 11.7,
+      "pickupServiceTime": 6.8,
+      "deliveryQuantity": 2,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 294,
+        "end": 465
+      }
+    },
+    {
+      "id": 157,
+      "x": -32.501,
+      "y": 39.526,
+      "TotalServiceTime": 21.5,
+      "deliveryServiceTime": 12.1,
+      "pickupServiceTime": 9.4,
+      "deliveryQuantity": 16,
+      "pickupQuantity": 7,
+      "category": "B",
+      "timeWindow": {
+        "start": 344,
+        "end": 477
+      }
+    },
+    {
+      "id": 158,
+      "x": -32.629,
+      "y": -82.581,
+      "TotalServiceTime": 12.5,
+      "deliveryServiceTime": 8.5,
+      "pickupServiceTime": 4.0,
+      "deliveryQuantity": 15,
+      "pickupQuantity": 3,
+      "category": "A",
+      "timeWindow": {
+        "start": 427,
+        "end": 580
+      }
+    },
+    {
+      "id": 159,
+      "x": -98.486,
+      "y": 22.021,
+      "TotalServiceTime": 8.0,
+      "deliveryServiceTime": 5.2,
+      "pickupServiceTime": 2.8,
+      "deliveryQuantity": 11,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 106,
+        "end": 263
+      }
+    },
+    {
+      "id": 160,
+      "x": -59.052,
+      "y": 4.163,
+      "TotalServiceTime": 19.0,
+      "deliveryServiceTime": 14.5,
+      "pickupServiceTime": 4.5,
+      "deliveryQuantity": 11,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 283,
+        "end": 413
+      }
+    },
+    {
+      "id": 161,
+      "x": 7.428,
+      "y": -2.57,
+      "TotalServiceTime": 16.5,
+      "deliveryServiceTime": 12.0,
+      "pickupServiceTime": 4.5,
+      "deliveryQuantity": 17,
+      "pickupQuantity": 3,
+      "category": "A",
+      "timeWindow": {
+        "start": 223,
+        "end": 358
+      }
+    },
+    {
+      "id": 162,
+      "x": -59.601,
+      "y": 12.469,
+      "TotalServiceTime": 5.5,
+      "deliveryServiceTime": 0,
+      "pickupServiceTime": 5.5,
+      "deliveryQuantity": 0,
+      "pickupQuantity": 1,
+      "category": "C",
+      "timeWindow": {
+        "start": 355,
+        "end": 512
+      }
+    },
+    {
+      "id": 163,
+      "x": -11.224,
+      "y": -31.83,
+      "TotalServiceTime": 20.5,
+      "deliveryServiceTime": 17.2,
+      "pickupServiceTime": 3.3,
+      "deliveryQuantity": 9,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 225,
+        "end": 389
+      }
+    },
+    {
+      "id": 164,
+      "x": -16.809,
+      "y": -35.04,
+      "TotalServiceTime": 9.5,
+      "deliveryServiceTime": 4.5,
+      "pickupServiceTime": 5.0,
+      "deliveryQuantity": 1,
+      "pickupQuantity": 1,
+      "category": "B",
+      "timeWindow": {
+        "start": 201,
+        "end": 327
+      }
+    },
+    {
+      "id": 165,
+      "x": 21.863,
+      "y": 18.14,
+      "TotalServiceTime": 23.0,
+      "deliveryServiceTime": 0,
+      "pickupServiceTime": 23.0,
+      "deliveryQuantity": 0,
+      "pickupQuantity": 2,
+      "category": "C",
+      "timeWindow": {
+        "start": 147,
+        "end": 313
+      }
+    },
+    {
+      "id": 166,
+      "x": 45.038,
+      "y": -61.316,
+      "TotalServiceTime": 13.5,
+      "deliveryServiceTime": 6.5,
+      "pickupServiceTime": 7.0,
+      "deliveryQuantity": 1,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 285,
+        "end": 381
+      }
+    },
+    {
+      "id": 167,
+      "x": -48.816,
+      "y": 25.568,
+      "TotalServiceTime": 24.5,
+      "deliveryServiceTime": 15.7,
+      "pickupServiceTime": 8.8,
+      "deliveryQuantity": 2,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 245,
+        "end": 399
+      }
+    },
+    {
+      "id": 168,
+      "x": -32.184,
+      "y": -16.736,
+      "TotalServiceTime": 5.5,
+      "deliveryServiceTime": 2.9,
+      "pickupServiceTime": 2.6,
+      "deliveryQuantity": 22,
+      "pickupQuantity": 3,
+      "category": "A",
+      "timeWindow": {
+        "start": 238,
+        "end": 341
+      }
+    },
+    {
+      "id": 169,
+      "x": 12.439,
+      "y": -41.492,
+      "TotalServiceTime": 17.0,
+      "deliveryServiceTime": 12.7,
+      "pickupServiceTime": 4.3,
+      "deliveryQuantity": 10,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 353,
+        "end": 493
+      }
+    },
+    {
+      "id": 170,
+      "x": -21.082,
+      "y": -77.075,
+      "TotalServiceTime": 16.5,
+      "deliveryServiceTime": 12.2,
+      "pickupServiceTime": 4.3,
+      "deliveryQuantity": 4,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 182,
+        "end": 311
+      }
+    },
+    {
+      "id": 171,
+      "x": -17.822,
+      "y": -18.518,
+      "TotalServiceTime": 14.5,
+      "deliveryServiceTime": 11.8,
+      "pickupServiceTime": 2.7,
+      "deliveryQuantity": 9,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 429,
+        "end": 548
+      }
+    },
+    {
+      "id": 172,
+      "x": 48.334,
+      "y": 93.518,
+      "TotalServiceTime": 15.0,
+      "deliveryServiceTime": 11.2,
+      "pickupServiceTime": 3.8,
+      "deliveryQuantity": 11,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 229,
+        "end": 362
+      }
+    },
+    {
+      "id": 173,
+      "x": -18.677,
+      "y": 49.005,
+      "TotalServiceTime": 25.5,
+      "deliveryServiceTime": 18.2,
+      "pickupServiceTime": 7.2,
+      "deliveryQuantity": 3,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 195,
+        "end": 334
+      }
+    },
+    {
+      "id": 174,
+      "x": 12.14,
+      "y": 30.042,
+      "TotalServiceTime": 24.5,
+      "deliveryServiceTime": 19.1,
+      "pickupServiceTime": 5.4,
+      "deliveryQuantity": 19,
+      "pickupQuantity": 3,
+      "category": "A",
+      "timeWindow": {
+        "start": 180,
+        "end": 288
+      }
+    },
+    {
+      "id": 175,
+      "x": 3.113,
+      "y": -40.302,
+      "TotalServiceTime": 28.0,
+      "deliveryServiceTime": 14.8,
+      "pickupServiceTime": 13.2,
+      "deliveryQuantity": 19,
+      "pickupQuantity": 10,
+      "category": "B",
+      "timeWindow": {
+        "start": 249,
+        "end": 422
+      }
+    },
+    {
+      "id": 176,
+      "x": 17.133,
+      "y": 37.079,
+      "TotalServiceTime": 4.5,
+      "deliveryServiceTime": 2.7,
+      "pickupServiceTime": 1.8,
+      "deliveryQuantity": 4,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 424,
+        "end": 556
+      }
+    },
+    {
+      "id": 177,
+      "x": 22.577,
+      "y": 0.836,
+      "TotalServiceTime": 18.0,
+      "deliveryServiceTime": 14.6,
+      "pickupServiceTime": 3.4,
+      "deliveryQuantity": 19,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 469,
+        "end": 628
+      }
+    },
+    {
+      "id": 178,
+      "x": -30.426,
+      "y": 52.942,
+      "TotalServiceTime": 13.5,
+      "deliveryServiceTime": 9.3,
+      "pickupServiceTime": 4.2,
+      "deliveryQuantity": 15,
+      "pickupQuantity": 3,
+      "category": "A",
+      "timeWindow": {
+        "start": 168,
+        "end": 312
+      }
+    },
+    {
+      "id": 179,
+      "x": 33.765,
+      "y": -67.108,
+      "TotalServiceTime": 12.5,
+      "deliveryServiceTime": 8.9,
+      "pickupServiceTime": 3.6,
+      "deliveryQuantity": 21,
+      "pickupQuantity": 3,
+      "category": "A",
+      "timeWindow": {
+        "start": 166,
+        "end": 276
+      }
+    },
+    {
+      "id": 180,
+      "x": 5.414,
+      "y": 1.532,
+      "TotalServiceTime": 30.0,
+      "deliveryServiceTime": 15.9,
+      "pickupServiceTime": 14.1,
+      "deliveryQuantity": 25,
+      "pickupQuantity": 12,
+      "category": "B",
+      "timeWindow": {
+        "start": 310,
+        "end": 412
+      }
+    },
+    {
+      "id": 181,
+      "x": 72.156,
+      "y": 30.103,
+      "TotalServiceTime": 23.0,
+      "deliveryServiceTime": 14.3,
+      "pickupServiceTime": 8.7,
+      "deliveryQuantity": 4,
+      "pickupQuantity": 2,
+      "category": "B",
+      "timeWindow": {
+        "start": 443,
+        "end": 557
+      }
+    },
+    {
+      "id": 182,
+      "x": -24.109,
+      "y": -34.625,
+      "TotalServiceTime": 10.5,
+      "deliveryServiceTime": 7.0,
+      "pickupServiceTime": 3.5,
+      "deliveryQuantity": 3,
+      "pickupQuantity": 1,
+      "category": "B",
+      "timeWindow": {
+        "start": 367,
+        "end": 540
+      }
+    },
+    {
+      "id": 183,
+      "x": 17.413,
+      "y": 75.146,
+      "TotalServiceTime": 10.5,
+      "deliveryServiceTime": 7.9,
+      "pickupServiceTime": 2.6,
+      "deliveryQuantity": 6,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 199,
+        "end": 325
+      }
+    },
+    {
+      "id": 184,
+      "x": 10.638,
+      "y": -60.052,
+      "TotalServiceTime": 11.5,
+      "deliveryServiceTime": 6.3,
+      "pickupServiceTime": 5.2,
+      "deliveryQuantity": 6,
+      "pickupQuantity": 3,
+      "category": "B",
+      "timeWindow": {
+        "start": 114,
+        "end": 209
+      }
+    },
+    {
+      "id": 185,
+      "x": -5.176,
+      "y": -48.999,
+      "TotalServiceTime": 6.0,
+      "deliveryServiceTime": 3.7,
+      "pickupServiceTime": 2.3,
+      "deliveryQuantity": 21,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 77,
+        "end": 178
+      }
+    },
+    {
+      "id": 186,
+      "x": -19.342,
+      "y": 21.118,
+      "TotalServiceTime": 15.5,
+      "deliveryServiceTime": 10.2,
+      "pickupServiceTime": 5.3,
+      "deliveryQuantity": 25,
+      "pickupQuantity": 5,
+      "category": "A",
+      "timeWindow": {
+        "start": 400,
+        "end": 533
+      }
+    },
+    {
+      "id": 187,
+      "x": -46.802,
+      "y": -14.661,
+      "TotalServiceTime": 19.0,
+      "deliveryServiceTime": 14.3,
+      "pickupServiceTime": 4.7,
+      "deliveryQuantity": 10,
+      "pickupQuantity": 2,
+      "category": "A",
+      "timeWindow": {
+        "start": 345,
+        "end": 521
+      }
+    },
+    {
+      "id": 188,
+      "x": -16.779,
+      "y": 43.439,
+      "TotalServiceTime": 27.0,
+      "deliveryServiceTime": 20.8,
+      "pickupServiceTime": 6.2,
+      "deliveryQuantity": 25,
+      "pickupQuantity": 4,
+      "category": "A",
+      "timeWindow": {
+        "start": 359,
+        "end": 525
+      }
+    },
+    {
+      "id": 189,
+      "x": 14.093,
+      "y": -13.605,
+      "TotalServiceTime": 14.0,
+      "deliveryServiceTime": 9.3,
+      "pickupServiceTime": 4.7,
+      "deliveryQuantity": 19,
+      "pickupQuantity": 4,
+      "category": "A",
+      "timeWindow": {
+        "start": 302,
+        "end": 414
+      }
+    },
+    {
+      "id": 190,
+      "x": -21.063,
+      "y": 26.019,
+      "TotalServiceTime": 20.0,
+      "deliveryServiceTime": 14.2,
+      "pickupServiceTime": 5.8,
+      "deliveryQuantity": 19,
+      "pickupQuantity": 4,
+      "category": "A",
+      "timeWindow": {
+        "start": 177,
+        "end": 318
+      }
+    },
+    {
+      "id": 191,
+      "x": 39.813,
+      "y": -40.668,
+      "TotalServiceTime": 11.0,
+      "deliveryServiceTime": 6.9,
+      "pickupServiceTime": 4.1,
+      "deliveryQuantity": 22,
+      "pickupQuantity": 4,
+      "category": "A",
+      "timeWindow": {
+        "start": 298,
+        "end": 429
+      }
+    },
+    {
+      "id": 192,
+      "x": 52.057,
+      "y": 30.334,
+      "TotalServiceTime": 23.5,
+      "deliveryServiceTime": 18.5,
+      "pickupServiceTime": 5.0,
+      "deliveryQuantity": 5,
+      "pickupQuantity": 1,
+      "category": "A",
+      "timeWindow": {
+        "start": 323,
+        "end": 457
+      }
+    }
+  ]
+}
