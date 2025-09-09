@@ -99,7 +99,6 @@ The service time (st) in the output represents the combined total of delivery_se
 Run the script directly with Python:
 
 ```powershell
-cd c:\Users\ANAS\Desktop\VRP_uburu\instances\MDHF-VRPTW-SPD\
 python transform_instances.py
 ```
 
@@ -117,3 +116,4 @@ This will process all available Cordeau MDVRPTW problems (pr01-pr20) and generat
 3. **Fixed Random Seed**: All random operations use a fixed seed (42) for reproducibility of results.
 
 4. **Flexible Instance Handling**: The script can process both MDVRPTW (type 6) and MDVRP (type 2) instances, automatically creating time windows for the latter.
+
